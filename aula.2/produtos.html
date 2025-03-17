@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>
+        .principal,.secundario{
+            color: white;
+        }
+        .principal{
+            background: #2f27ce;
+        }
+        .secundario {
+            background: #3229ff;
+        }
+        .produto{
+            background: #dedcff;
+        }
+        .produto a{
+            color: inherit; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+        }
+        .produto a:hover{
+            color: blue
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="index.html">PCElectric</a></h1>
+    <h2>A sua Loja de Electrónica</h2>
+    <hr/>
+    <table
+        border="2"
+        width="600"
+        align="center"
+        cellpadding="3"
+        cellspacing="0"
+    >
+        <caption>Produtos</caption>
+        <tr>
+            <th>Tipo</th>
+            <th>Sub-Tipo</th>
+            <th>Nome</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <th rowspan="6" class="principal">Computadores</th>
+            <th rowspan="3" class="secundario">Laptops</th>
+            <td class="produto"><a href="./produtos/laptops/macbook.html">Apple MacBook</a></td>
+            <!-- Descrição-->
+            <td rowspan="3">Computadores portáteis de medio porte.</td>
+        </tr>
+        <tr>
+            <td class="produto"><a href="./produtos/laptops/hpenvy.html">HP ENVY x360 Convert</a></td>
+        </tr>
+        <tr>
+            <td class="produto"><a href="./produtos/laptops/asus.html">ASUS F515EP</a></td>
+        </tr>
+        <tr>
+            <th rowspan="3" class="secundario">Notebooks</th>
+            <td class="produto"><a href="./produtos/notebooks/asus.html">ASUS E510MA</a></td>
+            <td rowspan="3"> Computadores portáteis de pequeno porte, tipo bloco de Notas.</td>
+        </tr>
+        <tr>
+            <td class="produto"><a href="./produtos/notebooks/surface.html">Microsoft Surface</a></td>
+        </tr>
+        <tr>
+            <td class="produto"><a href="./produtos/notebooks/lenovo.html">Lenovo V15-ADA</a></td>
+        </tr>
+        <!-- Componentes-->
+        <tr>
+            <th rowspan="3" class="principal">Componentes</th>
+            <th rowspan="3" class="secundario">Transistors</th>
+            <td class="produto"><a href="./produtos/transistores/2n6107g.html">2N6107G - Transistor Bipolar</a></td>
+            <td rowspan="3">Componentes eletrónicos, da classe dos semicondutores.</td>
+        </tr>
+        <tr>
+            <td class="produto"><a href="./produtos/transistores/nte37.html">NTE37 - Transistor</a></td>
+        </tr>
+        <tr>
+            <td class="produto"><a href="./produtos/transistores/2n6107g.html">KSC1008YTA - Transistor</a></td>
+        </tr>
+
+    </table>
+    <hr/>
+    <p>PCElectric 2021</p>
+</body>
+</html>
