@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+h1 {
+    font-family: 'Courier New';
+    color: #0000ff;
+}
+h2 {
+    color: #ff6348;
+}
+p{
+    font-family: 'Roboto';
+}
+a[href="https://www.ua.pt"]{
+    text-decoration: none;
+    font-weight: bold;
+}
+a[href="https://www.ua.pt"]:hover{
+    font-style: italic;
+    text-decoration: underline;
+    color: #ff6348;
+    background-color: #0dcd16;
+}
+#copyTrade{
+    color:#ff6348;
+    font-weight: bold;
+}
+hr{
+    color: #6495ec;
+    height: 2px;
+    background-color: #6495ec;
+    border-style: outset;
+}

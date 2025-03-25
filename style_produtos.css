@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+}
+h1 > a {
+    text-decoration: none;
+}
+h1>a:visited{
+    color: #0000ff;
+}
+h1 {
+    font-family: 'Courier New';
+    color: #0000ff;
+}
+h2 {
+    color: #ff6348;
+}
+hr{
+    color: #6495ec;
+    height: 2px;
+    background-color: #6495ec;
+    border-style: outset;
+}
+#copyTrade{
+    color:#ff6348;
+    font-weight: bold;
+}
+
+/* Especifico */
+h3{
+    color: #6495ec;
+}
+ul>li{
+    color:#0000ff;
+}
+ul>li>a, ul>li>a:visited{
+    color: #0000ff;
+    text-decoration: none;
+}
+ul>li>a:hover{
+    text-decoration: underline;
+    color: #b300ff;
+}
+/* Método 1 */
+
+/*
+ * Definição da 1ª e ultima linha
+*/
+/*
+ol>li:first-child,ol>li:last-child{
+    color: #ff0000;
+}
+*/
+/*
+ * Definição das linhas do meio
+*/
+/*
+ol>li{
+    color: #2ecdd5;
+}
+*/
+/* Fim do Método 1 */
+
+/* Método 2 */
+/*
+ * Definição de todas as linhas
+*/
+ol>li{
+    color: #ff3636;
+}
+/*
+ * Definição das linhas do meio
+*/
+ol>li:not(:first-child):not(:last-child){
+    color: #ff1794;
+}
